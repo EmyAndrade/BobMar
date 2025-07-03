@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de Produtos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="Css/styleProdutos.css" rel="stylesheet">
+  <link href="Css/styleNavbar.css" rel="stylesheet">
+  <link href="Css/styleRodape.css" rel="stylesheet">
+  <link href="Css/carrinho.css" rel="stylesheet">
+  <link href="Css/styleBarra.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" type="image/png" href="Imagens/logoBobMar.png" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-body p-1" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+            <img src="Imagens/logoBrancaBobMar.png" alt="BobMar" width="95">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0 justify-content-center">
+        </ul>
+        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catálogo
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="produtos.html">Mais vendidos</a></li>
+              <li><a class="dropdown-item" href="CatalogoADoce.html">Peixes água doce</a></li>
+              <li><a class="dropdown-item" href="CatalogoASalgada.html">Peixes água salgada</a></li>
+              <li><a class="dropdown-item" href="CatalogoOrnamentos.html">Ornamentos</a></li>
+              <li><a class="dropdown-item" href="CatalogoAquarios.html">Aquários</a></li>
+              <li><a class="dropdown-item" href="CatalogoProdutos.html">Produtos de aquário</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicos.html">Serviços</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown" style="margin-left: 55px;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="material-symbols-outlined mt-2" style="font-size: 26px;">
+                person
+                </span>
+            </a>
+            <ul class="dropdown-menu" style=" left: -75px;">
+              <li><a class="dropdown-item" href="Login.html"><span class="material-symbols-sharp"
+                    style="font-size: 23px; display: flex; margin-left: -3px;">
+                    login
+                  </span><p class="text" style="margin-top: -22px; margin-left: 30px; margin-bottom: -3px; ">Login</p></a></li>
+              <li><a class="dropdown-item" href="Cadastro.html"><span class="material-symbols-sharp" style="font-size: 23px; display: flex;">
+                    person_add
+                  </span><p class="text" style="margin-top: -22px; margin-left: 30px; margin-bottom: -3px;">Cadastro</p></a></li>
+            </ul>
+             </li>
+             <li class="nav-item me-4 carrinhoIconDK carrinhoIconMB">
+              <button class="nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><span class="material-symbols-outlined"
+                  style="font-size: 23px; margin-top: 11px;">
+                  shopping_cart
+                </span>
+              </button>
+            </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+  <div class="container text-center bannerCatalogo mt-3" style="background-image: url(Imagens/Backgroung-Azul.png);">
+    <div class="row align-items-center py-3">
+      <div class="col-md-5 py-2 d-flex justify-content-center align-items-center">
+        <img src="imagens/doacaoIcone.png" class="" width="40px" height="100%">
+        <h4 class="ps-4">Parte do lucro com as compras <br>vão para a nossa ONG</h4>
+      </div>
+      <div class="col-md-3 py-2 col-sm-12 d-flex justify-content-center align-items-center">
+        <img src="imagens/aviaoicone.png" width="45px" height="45px">
+        <div class="ps-4">
+          <h5 class="m-0">Entraga Rápida</h5>
+          <p class="m-0">Enviamos para todo o Brasil</p>
+        </div>
+      </div>
+      <div class="col-md-3 py-2 col-sm-12 d-flex justify-content-center align-items-center">
+        <img src="imagens/cadeadoicone.png" class="p-1" width="45px" height="45px">
+        <div class="ps-4">
+          <h5 class="m-0">Compra Segura</h5>
+          <p class="m-0">Site 100% seguro</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item mt-1"><a href="Index.html"><span class="material-symbols-outlined casahome">house</span></a></li>
+            <div class="traco">></div>
+            <div class="bordapagina">
+              <li class="breadcrumb-item active p-1" aria-current="page">Mais Vendidos</li>
+            </div>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <h1 class="my-4 pt-1 tituloProdutos">Catálogo</h1>
+    <div class="row  g-4 mx-4">
+      <!-- produto 1-->
+      <div class="col"><a href="#" class="linkProduto">
+          <div class="card product h-100">
+            <div class="imgbox"> 
+              <img src="Imagens/bannerexemplo.png" class="card-img-top imgProdutos"
+                alt="foto de peixe palhaço"> 
+            </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Peixe Palhaço</h2>
+                <p class="price">R$ <span class="precoProd">37,99</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 2-->
+      <div class="col">
+        <a href="#" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/paracanthurusHepatus.jpg" class="card-img-top imgProdutos"
+                alt="foto de peixe cirurgião patela azul"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Cirurgião-patela</h2>
+                <p class="price">R$ <span class="precoProd">622,00</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 3-->
+      <div class="col"><a href="#" class="linkProduto">
+        <div class="product h-100 certificar">
+          <div class="imgbox"> <img src="Imagens/peixeleao.jpg" class="card-img-top imgProdutos"
+              alt="foto de peixe leão rosa"> </div>
+          <div class="specifies">
+            <div class="d-flex justify-content-between">
+              <h2 class="nomeProd">Peixe Leão</h2>
+              <p class="price">R$ <span class="precoProd">1356,90</span></p>
+            </div>
+            <div class="d-flex gap-2">
+              <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+              <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+      <!-- produto 4-->
+      <div class="col"><a href="#" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/anthiasDispar.jpg" class="card-img-top imgProdutos"
+                alt="foto de Anthias Dispar"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Anthias Dispar</h2>
+                <p class="price">R$ <span class="precoProd">201,50</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 5-->
+      <div class="col"><a href="#" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/peixetetraneon.jpg" class="card-img-top imgProdutos"
+                alt="foto de Tetra Neon"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Tetra Neon</h2>
+                <p class="price">R$ <span class="precoProd">2,99</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 6-->
+      <div class="col"><a href="#" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/molinesiaNegra.jpg" class="card-img-top imgProdutos"
+                alt="foto de Molinésia negra"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Molinésia negra</h2>
+                <p class="price">R$ <span class="precoProd">11,99</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 7-->
+      <div class="col"><a href="#" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/peixebetta.jpg" class="card-img-top imgProdutos"
+                alt="foto de peixe Betta"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Peixe Betta</h2>
+                <p class="price">R$ <span class="precoProd">52,09</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="#" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!-- produto 8-->
+      <div class="col"><a href="detalhes.html" class="linkProduto">
+          <div class="product h-100">
+            <div class="imgbox"> <img src="Imagens/peixedourado.jpg" class="card-img-top imgProdutos"
+                alt="foto de Peixe Dourado"> </div>
+            <div class="specifies">
+              <div class="d-flex justify-content-between">
+                <h2 class="nomeProd">Peixe Dourado</h2>
+                <p class="price">R$ <span class="precoProd">80,00</span></p>
+              </div>
+              <div class="d-flex gap-2">
+                <a href="detalhes.html" class="btn btn-primary btnSpecifies btnDetalhes" role="button">Detalhes</a>
+                <button class="btn btn-primary btnSpecifies btnCarrinho" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" onclick="pegaProd(this)"><span class="material-symbols-outlined">shopping_cart</span></button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img src="Imagens/ondas.svg" class="marrodape">
+  <footer>
+    <div class="container mt-2">
+      <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+        <div class="col-xl-4 col-md-12 col-sm-12 descRodape">
+          <div class="logorodape"><a href="index.html"><img src="Imagens/logoBrancaBobMar.png" width="200px"
+                alt="Logo BobMar Branco"></a></div>
+          <div class="sobre">Somos o BobMar, uma empresa especializada em peixes. Estamos no mercado desde
+            2010,
+            trazendo informações e facilitando a vida.</div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 cateRodape">
+          <h3>Categorias</h3>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="CatalogoADoce.html">Peixes
+              Água Doce</a></p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="CatalogoASalgada.html">Peixes
+              Água Salgada</a></p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="CatalogoOrnamentos.html">Ornamentos</a></p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="CatalogoProdutos.html">Produtos</a></p>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 servRodape">
+          <h3>Serviços</h3>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="servicos.html">Manutenção Completa</a>
+          </p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="servicos.html">Manutenção de PH</a></p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;" href="#">Limpeza
+              do Aquário</a>
+          </p>
+          <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+              href="servicos.html">Assistencia
+              Específica</a></p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+          <h3>Contatos</h3>
+          <div><p class="justify-content-center contatos">
+            <span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">call</span>(+55) 11 4227-7450 <br></p>
+            <p class="justify-content-center contatos">
+            <span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">mail</span>contato@bobmar.com <br></p>
+            <p class="justify-content-center contatos"><span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">location_on</span>Rua Santo André, 680 - Boa Vista - São Caetano do Sul</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-2">
+      <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+        <div class="col todosicones">
+          <a href="https://www.instagram.com/"><img src="imagens/iconeinstabranco.png" width="50px" class="iconesrodape"
+              alt="Ícone Instagram Branco"></a>
+          <a href="https://www.facebook.com/?locale=pt_BR"><img src="imagens/iconefacebranco.png" width="50px"
+              class="iconesrodape" alt="Ícone Facebook Branco"></a>
+          <a href="https://br.linkedin.com/?src=go-pa&trk=sem-ga_campid.12619604099_asid.148548608796_crid.656532769089_kw.linked_d.c_tid.kwd-103941963_n.g_mt.e_geo.1001767&mcid=6821526239111716925&cid=&gclid=CjwKCAjwjaWoBhAmEiwAXz8DBfpkTEpzs3tDo8AKJq15zFEaSn0uOdqGKkrVq2rrkFcfaCYQw2EhmxoCes0QAvD_BwE&gclsrc=aw.ds"><img
+              src="imagens/iconelinkedinbranco.png" width="50px" class="iconesrodape" alt="Ícone Linkedin Branco"></a>
+          <a href="https://www.youtube.com/"><img src="Imagens/iconeyoutubebranco.png" width="50px" class="iconesrodape"
+              alt="Ícone Youtube Branco"></a>
+          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"><img
+              src="Imagens/iconetwitterbranco.png" width="50px" class="iconesrodape" alt="Ícone Twitter Branco"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+        <div class="col">
+          Todos os direitos reservados | BobMar
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+        <div class="col">
+          <b>CNPJ: </b>26.976.238/8746-42
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+        <div class="col">
+          © 2023
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- off canvas -->
+<div class="offcanvas offcanvas-end offcanvas-carrinho" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu carrinho</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    
+  </div>
+  <div class="offcanvas-body">
+      <div id="prodCorpo" >
+        
+      </div>
+      <div class="espacinho"></div>
+      
+    </div>
+      <div class="finalizarCompra p-3 pb-0">
+        <div class="total d-flex justify-content-between m-0 p-0">
+      <p class="m-0">Total:</p>
+      <p><span id="valorTotal">0,00</span></p>
+        </div>
+        <div class="descLinha"></div>
+        <button type="button" class="finalizarbtn btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Finalizar Compra
+        </button>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    </div>
+<!-- fim do off canvas-->
+
+
+
+<!-- Modal certificado -->
+<div class="modal fade modal-certifica" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-0">
+        
+  <!-- formulario de certificação  -->
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="alert alert-primary d-flex align-items-center" role="alert">
+                <div>
+                    <span class="material-symbols-outlined mt-1">info</span>
+                </div>
+                <div class="ms-2">
+                    Devido a natureza desse animal, é necessário uma licença para finalizar a compra.
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+        <div class="container mb-4">
+          <div class="row justify-content-center">
+              <div class="col-md-12">
+                  <div class="caixalicenca">
+                      <div class="textocaixalicenca text-center pt-2 pb-2 mb-3">
+                          <h3>Preencha com seus dados</h3>
+                      </div>
+                      
+                      <form class="form" id="form">
+                        <div class="row g-3 mb-2">
+                          <div class="col-md-6 col-sm-12">
+    
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome" class="form-control">
+    
+                            <small></small>
+    
+                          </div>
+    
+                          <div class="col-md-6 col-sm-12">
+                            <label for="tel">Telefone Celular</label>
+                            <input type="text" class="form-control" placeholder="Ex. +55 (11) 98988-2711" maxlength="19"
+                              class="telefone" id="tel" onkeypress="formatarNumero(this)" > 
+                            <small></small>
+                          </div>
+                        </div>
+    
+                        <div class="row justify-content-center">
+                          <div class="col mb-3 mt-2">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control mt-1"
+                              placeholder="Ex. josealencar@gmail.com">
+    
+                            <small></small>
+                          </div>
+                        </div>
+    
+                        <div class="mb-3 text-center">
+                          <label for="selecionarArquivo" class="form-label">Coloque uma foto de sua licença aqui</label>
+                          <input class="form-control" type="file" id="selecionarArquivo" accept=".jpg, .jpeg, .png"
+                            multiple>
+                        </div>
+    
+                      </form>
+                  
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- fim do formulario  -->
+
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" 
+        onclick="checkInputs();">Fechar</button>
+      <button id="remover" type="button" data-bs-dismiss="modal" class="btn btn-primary" onclick="pegaProd(this);">Enviar</button> 
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- fim do modal certificado-->
+
+<!-- Modal Finalizar compra -->
+<div class="modal fade modal-finalizar mx-1" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-11"> Compra finalizada com sucesso! Enviamos mais informações em seu e-mail de contato.</div>
+          <div class="col-md-1 p-1 d-flex align-items-center"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="recarregar()"></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fim modal finalizar compra-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="js/enviarLicenca.js"></script>
+    <script src="js/carrinho.js"></script>
+
+</body>
+
+</html>

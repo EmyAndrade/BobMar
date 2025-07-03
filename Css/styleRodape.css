@@ -1,0 +1,81 @@
+footer {
+    background-color: #134da3;
+    color: white;
+}
+
+.marrodape {
+    width: 100%;
+}
+
+.sobre {
+    background-color: #134591;
+    padding: 5px 5px 5px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.todosicones .iconesrodape {
+    margin: 10px 6px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.todosicones .iconesrodape:hover {
+    transform: scale(1.1, 1.1);
+    transition: ease-in-out .2s;
+}
+
+.todosicones:hover .iconesrodape:not(:hover) {
+    transform: scale(0.9, 0.9) !important;
+    transition: ease-in-out .2s;
+}
+.todosicones:o  hover
+
+.marrodape {
+    width: 100%;
+}
+
+.logorodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logorodape a {
+    cursor: pointer; 
+}
+
+.categoriasrodape a {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.categoriasrodape a:hover{
+    color:rgb(209, 210, 216);
+  }
+
+.contatos {
+    margin-bottom: 10px !important;
+}
+
+@media (min-width: 1200px) {
+    .descRodape {
+        margin-right: 40px;
+    }
+    .servRodape {
+        margin-right: 15px;
+    }
+    .cateRodape {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .descRodape {
+        margin-right: 0;
+    }
+}
+
+.espacoIcon {
+    padding-right: 5px;
+}

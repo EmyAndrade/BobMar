@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Ubuntu&display=swap');
+
+body {
+    font-family: "ubuntu";
+}
+
+.Foto-Detalhes {
+    width: 80%;
+    border-radius: 20px;
+    min-width: 200px;
+}
+.BoxFoto-Detalhes {
+    display:flex;
+    background-color: #248fba3c;
+    border-radius: 15px;
+}
+
+.txt-descricao {
+    border-top: 1.5px solid;
+    border-top-color: rgb(25, 79, 154);
+    padding-top: 20px;
+    font-size: 16px;
+}
+.iconLocal {
+    vertical-align:bottom;
+    color:#298993 ;
+}
+.iconStar {
+    vertical-align:bottom;
+    color:#f1ea2b ;
+}
+
+  .bnt-detalhes {
+    padding: 7px 20px;
+    border: 2px solid #24adba;
+    background: rgb(54, 178, 238);
+    background: linear-gradient(0deg, rgba(54, 178, 238, 1) 0%, rgba(104, 220, 245, 1) 32%, rgba(143, 237, 255, 1) 100%);
+    border-radius: 15px;
+    transition: 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.bnt-detalhes:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background: linear-gradient(0deg, rgba(44, 167, 195, 1) 0%, rgba(84, 190, 226, 1) 100%);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s;
+    z-index: -1;
+}
+
+.bnt-detalhes:hover {
+    color: #ffffff;
+    border: 2px solid #137a85;
+}
+
+.bnt-detalhes:hover:after {
+    top: -45%;
+    background: linear-gradient(0deg, rgba(44, 167, 195, 1) 0%, rgba(84, 190, 226, 1) 100%);
+}
+
+.card-feedback {
+    background-color: #ace4eb;
+    border-top: px solid !important;
+    border-top-color: rgb(163, 39, 39);
+    z-index: 1;
+    border: 0;
+    box-shadow: rgba(20, 9, 74, 0.4) 0px 2px 4px, rgba(20, 6, 86, 0.3) 0px 7px 13px -3px, rgba(14, 8, 71, 0.2) 0px -3px 0px inset;
+    margin-bottom: 10px;
+}
+.img-opn {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(12, 48, 101, 0.2);
+    position: relative;
+    z-index: 999;
+    width: 130px;
+    top: 30px;
+    padding: 9px;
+    align-self: center;
+}
+
+.material-symbols-outlined.iconLocal {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 70;
+}
+
+.material-symbols-outlined.preenchido {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 70;
+}
+
+
+.material-symbols-outlined.casahome{
+    vertical-align:bottom;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 10,
+  'opsz' 20
+}
+
+.breadcrumb-item a{
+    color: #424242;
+    text-decoration: none;
+}
+
+.bordapagina {
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: #c3d9fa;
+    vertical-align: bottom;
+}
+.traco {
+    padding: 0 7px;
+    color: grey;
+    font-size: 20px;
+}
+.btn-orcamento-modal {
+    padding: 6px 20px;
+    color: white;
+    border: 2px solid #1a1285;
+    background: rgb(54, 125, 238);
+    background: linear-gradient(0deg, rgb(23, 72, 172) 0%, rgb(31, 93, 216) 35%, rgb(54, 115, 238) 100%);
+    border-radius: 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.modal {
+    z-index: 9999;
+}

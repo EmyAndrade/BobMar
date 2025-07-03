@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400&display=swap');
+
+.carousel-inner {
+    border-radius: 2%;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.CarouselImg {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    top: 105%;
+    width: 100%;
+    margin: 0;
+}
+
+.btnImg {
+    border-radius: 8% /16%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    height: 70px !important;
+    width: 70px !important;
+}
+
+.nomeProduto {
+    font-size: calc(18px + .5vw);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.descLinha {
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.831), rgba(0, 0, 0, 0.178));
+    margin: 10px 0;
+}
+
+.descProduto {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #424242;
+    text-align: justify;
+    font-size:15px;
+}
+
+.descComp {
+    border: 2.8px solid #1960c9 !important;
+    background-color: #1960c9;
+    color: white;
+}
+
+.descComp:hover {
+    background-color: #144ea3;
+
+}
+
+.descCarr {
+    border: 2.8px solid #1960c9 !important;
+    color: #1960c9;
+    --bs-btn-hover-bg: #144ea3;
+}
+
+.badge {
+    background-color: #36b2ee !important;
+}
+
+@media (max-width: 768px) {
+   .desktop{
+    display: none;
+   }
+   .mobile{
+    display: block;
+   }
+  }
+
+@media (min-width: 768px) {
+   .desktop{
+    display: flex;
+   }
+   .mobile{
+    display: none;
+   }
+  }
+
+.carr-detal.material-symbols-outlined {
+    vertical-align: bottom;
+    font-variation-settings:
+     'FILL' 0,
+     'wght' 300,
+     'GRAD' 10,
+     'opsz' 20;
+}
+
+.detalhesCont.material-symbols-outlined {
+    vertical-align: bottom;
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 300,
+      'GRAD' 10,
+      'opsz' 20
+}
+
+.material-symbols-outlined.casahome{
+    vertical-align:bottom;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 10,
+  'opsz' 20
+}
+
+.breadcrumb-item a{
+    color: #424242;
+    text-decoration: none;
+}
+
+.bordapagina {
+    border-radius: 10px;
+    padding:0 10px;
+    background-color: #c3d9fa;
+    vertical-align: bottom;
+}
+
+.traco {
+    padding:0 7px;
+    color: grey;
+    font-size: 20px;
+}
+
+.btn-outline-primary  {
+    --bs-btn-hover-bg: #144ea3 !important;
+    --bs-btn-active-bg: #1960c9 !important;
+}

@@ -1,0 +1,27 @@
+.img-opn {
+    border-radius: 2%;
+    background-color: #ffffff;
+    box-shadow: 0 0 16px rgba(12, 48, 101, 0.2);
+    z-index: 9999;
+    width: 100%;
+    top: 30px;
+    padding: 15px 15px 30px;
+    align-self: center;
+}
+
+.img-opn p{
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 10px;
+    margin: auto;
+}
+
+h5{
+    color: #0d48a1;    
+}
+
+h1{
+    color: #033074;
+}

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+    <link href="CSS/StyleCadastro.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Imagens/logoBobMar.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="CSS/styleNavbar.css" rel="stylesheet">
+    <link href="CSS/styleRodape.css" rel="stylesheet">
+    <link href="Css/styleBarra.css" rel="stylesheet">
+    <link href="Css/carrinho.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-body p-1" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+                <img src="Imagens/logoBrancaBobMar.png" alt="BobMar" width="95">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0 justify-content-center">
+                </ul>
+                <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0 justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Catálogo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="produtos.html">Mais vendidos</a></li>
+                            <li><a class="dropdown-item" href="CatalogoADoce.html">Peixes água doce</a></li>
+                            <li><a class="dropdown-item" href="CatalogoASalgada.html">Peixes água salgada</a></li>
+                            <li><a class="dropdown-item" href="CatalogoOrnamentos.html">Ornamentos</a></li>
+                            <li><a class="dropdown-item" href="CatalogoAquarios.html">Aquários</a></li>
+                            <li><a class="dropdown-item" href="CatalogoProdutos.html">Produtos de aquário</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown" style="margin-left: 50px;">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="material-symbols-outlined mt-2" style="font-size: 26px;">
+                                person
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu" style=" left: -75px;">
+                            <li><a class="dropdown-item" href="Login.html"><span class="material-symbols-sharp"
+                                        style="font-size: 23px; display: flex; margin-left: -3px;">
+                                        login
+                                    </span>
+                                    <p class="text" style="margin-top: -22px; margin-left: 30px; margin-bottom: -3px; ">
+                                        Login</p>
+                                </a></li>
+                            <li><a class="dropdown-item" href="Cadastro.html"><span class="material-symbols-sharp"
+                                        style="font-size: 23px; display: flex;">
+                                        person_add
+                                    </span>
+                                    <p class="text" style="margin-top: -22px; margin-left: 30px; margin-bottom: -3px;">
+                                        Cadastro</p>
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-4 carrinhoIconDK carrinhoIconMB">
+                        <button class="nav-link" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
+                                class="material-symbols-outlined" style="font-size: 23px; margin-top: 11px;">
+                                shopping_cart
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center p-4">
+        <h1 class="cadastro">Cadastre-se</h1>
+    </div>
+
+
+
+
+    <div class="container p-4">
+        <div class="BoxFoto-Detalhes row p-4 g-0">
+          <div class="col-md-6 text-center col-lg-6 col-xl-6">
+            <img class="Foto-Detalhes img-fluid" src="Imagens/imagemcadastro.png" alt="imagem de mulher digitando no computador">
+          </div>
+          <div class="col-md-6 mt-2">
+            <h4 class="tituloformulario  text-center">Crie sua conta</h4>
+            <div class="row g-4 text-center p-4 justify-content-center">
+                <div class="col-md-3 col">
+                    <a href="https://www.facebook.com/?locale=pt_BR"><img class="logos"src="imagens/logofacebook.webp" alt="logo Facebook azul"></a>
+                </div>
+                <div class="col-md-3 col">
+                    <a href="https://br.linkedin.com/"><img class="logos"src="imagens/logoin.png" alt="logo Linkedin azul"></a>
+                </div>
+                <div class="col-md-3 col">
+                    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><img class="logos" src="imagens/googlelogo.webp" alt="Logo google azul"></a>
+                </div>
+            </div>
+            
+
+            <form id="formulario">
+                <label for="exampleInputPassword1" class="form-label">Nome completo:</label>
+                <div class="input-container">
+                    <span class="icon material-symbols-outlined">person</span>
+                    <input class="input-field" placeholder="nome" type="text" class="form-control" id="nome">
+                </div>
+
+                <label for="exampleInputPassword1" class="form-label">E-mail:</label>
+                <div class="input-container">
+                    <span class="icon material-symbols-outlined">mail</span>
+                    <input class="input-field" placeholder="email" type="text" class="form-control" id="email"
+                    aria-describedby="emailHelp">
+                </div>
+
+                <label for="exampleInputPassword1" class="form-label">CPF:</label>
+                <div class="input-container">
+                    <span class="icon material-symbols-outlined">assignment_ind</span>
+                    <input class="input-field" placeholder="CPF" type="text" class="form-control" id="cpf" maxlength="14" oninput="formatarCPF(this)">
+                </div>
+
+                <label for="exampleInputPassword1" class="form-label">Crie uma senha forte:</label>
+                <div class="input-container">
+                    <span class="icon material-symbols-outlined">lock</span>
+                    <input class="input-field" type="password" placeholder="senha" id="criarSenha">
+                </div>
+
+                <label for="exampleInputPassword1" class="form-label">Repita sua senha:</label>
+                <div class="input-container">
+                    <span class="icon material-symbols-outlined">key</span>
+                    <input class="input-field" type="password" placeholder="senha" id="repetirSenha">
+                </div>
+
+                <div class="row">
+                    <div class="col mb-3">
+                        <label class="check">
+                            <input type="checkbox">
+                            <svg viewBox="0 0 64 64" height="3em" width="17px"
+                                style="margin-right: 7px; margin-bottom: 3px">
+                                <path
+                                    d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16"
+                                    pathLength="575.0541381835938" class="path"></path>
+                            </svg>
+                        </label>
+                        <label class="texto" for="flexCheckDefault">Lembrar Senha</label>
+                    </div>
+                </div>
+            </form>
+            <div class="container text-center">
+                <div class="col">
+                    <button type="button" class="cadastrar"
+                        onclick="pegaDados()">Enviar</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <img src="Imagens/ondas.svg" class="marrodape">
+    <footer>
+        <div class="container mt-2">
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+            <div class="col-xl-4 col-md-12 col-sm-12 descRodape">
+              <div class="logorodape"><a href="index.html"><img src="Imagens/logoBrancaBobMar.png" width="200px"
+                    alt="Logo BobMar Branco"></a></div>
+              <div class="sobre">Somos o BobMar, uma empresa especializada em peixes. Estamos no mercado desde
+                2010,
+                trazendo informações e facilitando a vida.</div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 cateRodape">
+              <h3>Categorias</h3>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="CatalogoADoce.html">Peixes
+                  Água Doce</a></p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="CatalogoASalgada.html">Peixes
+                  Água Salgada</a></p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="CatalogoOrnamentos.html">Ornamentos</a></p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="CatalogoProdutos.html">Produtos</a></p>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 servRodape">
+              <h3>Serviços</h3>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="servicos.html">Manutenção Completa</a>
+              </p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="servicos.html">Manutenção de PH</a></p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;" href="#">Limpeza
+                  do Aquário</a>
+              </p>
+              <p class="categoriasrodape" style="margin-bottom: 0.5px;"><a style="text-decoration: none;"
+                  href="servicos.html">Assistencia
+                  Específica</a></p>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+              <h3>Contatos</h3>
+              <div><p class="justify-content-center contatos">
+                <span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">call</span>(+55) 11 4227-7450 <br></p>
+                <p class="justify-content-center contatos">
+                <span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">mail</span>contato@bobmar.com <br></p>
+                <p class="justify-content-center contatos"><span class="material-symbols-outlined espacoIcon" style="vertical-align:top;">location_on</span>Rua Santo André, 680 - Boa Vista - São Caetano do Sul</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-2">
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+            <div class="col todosicones">
+              <a href="https://www.instagram.com/"><img src="imagens/iconeinstabranco.png" width="50px" class="iconesrodape"
+                  alt="Ícone Instagram Branco"></a>
+              <a href="https://www.facebook.com/?locale=pt_BR"><img src="imagens/iconefacebranco.png" width="50px"
+                  class="iconesrodape" alt="Ícone Facebook Branco"></a>
+              <a href="https://br.linkedin.com/?src=go-pa&trk=sem-ga_campid.12619604099_asid.148548608796_crid.656532769089_kw.linked_d.c_tid.kwd-103941963_n.g_mt.e_geo.1001767&mcid=6821526239111716925&cid=&gclid=CjwKCAjwjaWoBhAmEiwAXz8DBfpkTEpzs3tDo8AKJq15zFEaSn0uOdqGKkrVq2rrkFcfaCYQw2EhmxoCes0QAvD_BwE&gclsrc=aw.ds"><img
+                  src="imagens/iconelinkedinbranco.png" width="50px" class="iconesrodape" alt="Ícone Linkedin Branco"></a>
+              <a href="https://www.youtube.com/"><img src="Imagens/iconeyoutubebranco.png" width="50px" class="iconesrodape"
+                  alt="Ícone Youtube Branco"></a>
+              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"><img
+                  src="Imagens/iconetwitterbranco.png" width="50px" class="iconesrodape" alt="Ícone Twitter Branco"></a>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-3">
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+            <div class="col">
+              Todos os direitos reservados | BobMar
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+            <div class="col">
+              <b>CNPJ: </b>26.976.238/8746-42
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center text-center">
+            <div class="col">
+              © 2023
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/carrinho.js"></script>
+
+    <!-- modal-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Meu carrinho</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <div id="prodCorpo">
+
+            </div>
+            <div class="espacinho"></div>
+
+        </div>
+        <div class="finalizarCompra p-3 pb-0">
+            <div class="total d-flex justify-content-between m-0 p-0">
+                <p class="m-0">Total:</p>
+                <p><span id="valorTotal">0,00</span></p>
+            </div>
+            <div class="descLinha"></div>
+            <a href="#" class="finalizarbtn btn btn-dark" role="button">Finalizar Compra</a>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    </div>
+    <!-- fim do modal-->
+</body>
+
+</html>

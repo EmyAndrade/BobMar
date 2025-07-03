@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&family=Ubuntu&display=swap');
+
+body {
+    background: rgb(248, 247, 243) !important;
+}
+.login {
+    min-height: 100vh;
+}
+
+.tituloformulario {
+    font-family: ubuntu;
+    color: #260E69;
+}
+
+.cadastro {
+    font-family: poppins;
+    color: #396ebd;
+}
+
+.aolado {
+    border-radius: 10px;
+    position: absolute;
+    width: 500px;
+}
+
+.logos {
+    width: 45px;
+    cursor: pointer;
+}
+
+.logos:hover {
+    transform: scale(1.2);
+    transition: ease-in-out .2s;
+}
+
+.cadastrar {
+    padding: 7px 20px;
+    border: 2px solid #3f72be;
+    background: rgb(17, 12, 108);
+    background-image: linear-gradient(to top, #1d54a7, #3c7ad8);
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+    font-family: ubuntu;
+}
+
+.cadastrar:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background: rgb(14, 46, 94);
+    background-color: #2e0a8b;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s;
+    z-index: -1;
+}
+
+.cadastrar:hover {
+    color: #ffffff;
+    border: 2px solid #1b4482;
+}
+
+.cadastrar:hover:after {
+    top: -45%;
+    border: 2px solid #0d48a1;
+}
+
+.caixa {
+    border-color: #260E69;
+}
+
+.align-items-center {
+    border: 2px double;
+    border-color: black;
+    background-color: #ffffff;
+    border-radius: 13px;
+}
+
+.custom-alert {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.redirecionar {
+    padding: 7px 40px;
+    border: 2px solid #3f72be;
+    background: rgb(17, 12, 108);
+    background-image: linear-gradient(to top, #1d54a7, #3c7ad8);
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+    font-family: ubuntu;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.check input {
+    display: none;
+}
+
+.check svg {
+    overflow: visible;
+}
+
+.path {
+    fill: none;
+    stroke: rgb(44, 102, 211);
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+    stroke-dasharray: 241 9999999;
+    stroke-dashoffset: 0;
+}
+
+.check input:checked~svg .path {
+    stroke-dasharray: 70.5096664428711 9999999;
+    stroke-dashoffset: -262.2723388671875;
+}
+
+
+
+
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+.icon {
+    padding: 10px;
+    background: rgba(61, 142, 223, 0.822);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px 0px 0px 15px;
+    user-select: none;
+  }
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none; 
+    border: 1px #d7d7d7 solid;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  @media (max-width: 767px) {
+    .Foto-Detalhes {
+        display: none;
+    }
+    }
+    @media (min-width: 767px) {
+        .Foto-Detalhes {
+            display: block;
+        }
+    }
+
+.Foto-Detalhes {
+    width: 100%;
+    border-radius: 20px;
+    min-width: 200px;
+    padding-right: 10%;
+    user-select: none;
+}
+.BoxFoto-Detalhes {
+    display:flex;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 15px;
+}

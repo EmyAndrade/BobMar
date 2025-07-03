@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0');
+
+.imgProd {
+    padding: 5px 0 5px 5px;
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.cardProd {
+    padding: 3%;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1.3px 0;
+    border-color: rgb(225, 225, 225);
+    color: #1b1a19;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.qtdSelecao {
+    width: 55px;
+    background-color: #f7f4f1;
+    border: 0;
+}
+
+.corpoCard {
+    padding-left: 12px
+}
+
+.precoProduto {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.qtdNome {
+    font-size: 11px;
+}
+
+.deleteIcon {
+    font-size: 20px !important;
+    border: 0;
+    background-color: #ffffff00;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 10
+}
+.deleteIcon:hover {
+    color: #df1e1e;
+}
+
+@media (max-width: 575px) {
+    .col-ssm-6 {
+        display: inline !important;
+        width: 50% !important;
+        box-sizing: border-box !important;
+    }
+   }
+
+.finalizarCompra {
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.237) 0px 0px 16px;
+}
+
+@media (max-width: 400px) {
+    .finalizarCompra {
+        width: 90% !important;
+    }
+   }
+
+.finalizarbtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1b1a19;
+    border-radius: 2px;
+    margin: 15px 0px 10px;
+}
+
+.espacinho {
+    content: '';
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.offcanvas {
+    z-index: 9999;
+  }
+
+.descLinha {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.064), rgba(0, 0, 0, 0.306), rgba(0, 0, 0, 0.073));
+    margin: 10px 0;
+}
+.total {
+    height: 18px;
+}
+
+/* produtos desativados */
+
+.cardProd-desativado {
+    color:rgb(123, 123, 123);
+    animation: certificar .8s;
+}
+
+@keyframes certificar {
+    from {
+        background-color: rgb(254, 138, 138);
+    }
+    to {
+        background-color: rgb(255, 255, 255);
+    }
+  }
+
+.imgProd-desativado {
+    filter: grayscale(1);
+    opacity: 0.7;
+}
+
+
+/* modal de certificado */
+.modal-certifica {
+    z-index: 9999;
+    background-color:rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    border: 0;
+}
+.offcanvas-carrinho {
+    z-index: 9998;
+}
+
+.btn-certifica {
+    font-family: "Montserrat";
+    font-size: 14px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 3px 4px 0;
+    
+}
+
+.modal-finalizar {
+    z-index: 99999;
+    background-color:rgba(0,0,0,0.2);
+}
