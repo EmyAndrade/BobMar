@@ -68,7 +68,7 @@ A estrutura do repositório é a seguinte:
 
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+Carollini Simplício, Emily Andrade, Jessica Arruda e Sabrina Abreu
 
 ---
 
